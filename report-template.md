@@ -3,8 +3,6 @@ By Laura Faulds
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
 The purpose of this analysis was to use machine learning to parse and understand a data set describing the financial situation of a group of loan applicants so that it can predict whether a given applicant is a healthy or high-risk candidate. 
 
  Variables such as loan size, interest rate, borrower income, and total debt were analyzed against the given applicant's loan status. Loan status was split into two categories: 0 for Healthy, and 1 for High Risk. 
@@ -18,25 +16,19 @@ The purpose of this analysis was to use machine learning to parse and understand
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-  
+    
   * Accuracy: 99.18489475856377%
   * Precision Scores: Healthy Loan 1.00, High Risk Loan 0.85
   * Recall Scores: Healthy Loan 0.99, High Risk Loan 0.91
   
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
-  
+    
   * Accuracy: 99.38093272802311%
   * Precision Scores: Healthy Loan 1.00, High Risk Loan 0.84
   * Recall Scores: Healthy Loan 0.99, High Risk Loan 0.99
   
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
 
 Both Model 1 and Model 2 did an excellent job of predicting and identifying healthy loans. However, Model 1's ability to predict and identify high-risk loans was inferior to Model 2's. Model 2 is ultimately the better performer. 
 
